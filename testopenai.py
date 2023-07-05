@@ -1,6 +1,5 @@
 import os
 import openai
-##OPENAI_API_KEY='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'
 openai.api_key=os.getenv("OPENAI_API_KEY")
 
 response=openai.Completion.create(
