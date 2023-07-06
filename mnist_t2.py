@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import matplotlib.pyplot as plt 
 
 # 建立函數要來畫多圖的
@@ -36,7 +35,7 @@ def plot_images_labels_prediction(images,labels,prediction,idx,num=10):
   plt.show()  
   
 plot_images_labels_prediction(x_train_image,y_train_label,[],0,10)  
-=======
+
 import matplotlib.pyplot as plt 
 
 # 建立函數要來畫多圖的
@@ -74,4 +73,3 @@ def plot_images_labels_prediction(images,labels,prediction,idx,num=10):
   plt.show()  
   
 plot_images_labels_prediction(x_train_image,y_train_label,[],0,10)  
->>>>>>> 5279899b69b29cd56fae64d120ae7e49e7589eaf
